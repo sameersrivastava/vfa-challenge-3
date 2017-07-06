@@ -52,10 +52,36 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 }
 /*Row-problem*/
 .row-problem{
-	height: 500px;
+	/*height: 500px;*/
 	background-color:#252944;
 	color:#ffffff;
-	padding: 30px 0px;
+	padding-top: 30px;
 	font-size: 2.0em;
+	line-height: 1.8em;
+}
+.row-problem>div{
+	margin-bottom: 25px;
+}
+#referral-68{
+	padding-top: 50px;
+}
+/*Row Features*/
+.row-features{
+	padding: 30px;
+}
+.row-features h1{
+	font-size: 3.2em;
+	margin-bottom: 30px;
+}
+.row-features h2{
+	font-size: 2.7em;
+	color: #EF4C4A;
+}
+.row-features>div, .row-features>img{
+	margin-bottom: 20px;
+}
+.row-features p{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 1.5em;
 	line-height: 1.8em;
 }
