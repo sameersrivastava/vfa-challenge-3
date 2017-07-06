@@ -43,20 +43,21 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 }
 /*Row-header*/
 .row-header p{
-	font-size: 2.8em;
-	padding-top: 50px;
+	font-size: 2.7em;
+	padding-top: 10px;
 	margin-bottom: 20px;
+	text-indent:none;
 }
 .row-header .btn{
 	padding: 15px 20px;
-	font-size: 1.6em;
+	font-size: 1.4em;
 }
 #header-logo{
 	width: 15%;
     float: left;
     margin-right: 5px;
     position: relative;
-    top: 4px;
+    top: -6px;
 }
 #large-font{
 	font-size: 1.6em;
