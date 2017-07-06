@@ -63,12 +63,15 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 .row-problem>div{
 	margin-bottom: 25px;
 }
+.row-problem strong{
+	font-size:1.4em;
+}
 #referral-68{
 	padding-top: 50px;
 }
 /*Row Features*/
 .row-features{
-	padding: 30px;
+	padding-top: 30px;
 }
 .row-features h1{
 	font-size: 3.2em;
@@ -82,10 +85,12 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 	margin-bottom: 20px;
 }
 .row-features p{
+	margin-top: 20px;
 	font-family: 'Open Sans',sans-serif;
-	font-size: 1.5em;
-	line-height: 1.8em;
+	font-size: 1.7em;
+	line-height: 2.1em;
 }
+/*Footer*/
 footer{
 	background-color: #fafafa;
     color: #838383;
