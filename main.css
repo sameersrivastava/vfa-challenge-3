@@ -45,6 +45,7 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 }
 .row-header .btn{
 	padding: 15px 20px;
+	font-size: 1.6em;
 }
 #large-font{
 	font-size: 1.6em;
@@ -84,4 +85,24 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 	font-family: 'Open Sans',sans-serif;
 	font-size: 1.5em;
 	line-height: 1.8em;
+}
+footer{
+	background-color: #fafafa;
+    color: #838383;
+    padding: 20px 0px;
+    font-size: 1.1em;
+}
+footer .title{
+	font-weight:bold;
+	margin-bottom: 5px;
+}
+footer li{
+	margin-bottom: 10px;
+}
+footer a{
+	color: #838383;
+}
+footer .pull-right{
+	margin-top: 20px;
+	padding-right: 30px;
 }
