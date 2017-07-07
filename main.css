@@ -38,7 +38,7 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 
 /*Page*/
 #page{
-	padding: 40px 0px;
+	padding-top: 40px;
 	font-family: "Lato",sans-serif;
 }
 /*Row-header*/
@@ -46,7 +46,6 @@ a.navbar-brand img, a.navbar-brand:active img, a.navbar-brand:visited img {
 	font-size: 2.7em;
 	padding-top: 10px;
 	margin-bottom: 20px;
-	text-indent:none;
 }
 .row-header .btn{
 	padding: 15px 20px;
@@ -132,4 +131,30 @@ footer a{
 footer .pull-right{
 	margin-top: 20px;
 	padding-right: 30px;
+	font-size: 0.8em;
+}
+
+
+/*Medium Screen*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.row-header p{
+		font-size: 2.2em;
+	}	
+}
+
+/*Small Screen*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	#header-logo{
+		width: 7%;
+	}
+}
+/*extra small screen*/
+@media screen and (max-width: 768px) {
+	#header-logo{
+		width:70px;
+		top:5px;
+	}
+	#large-font{
+		font-size: 2.0em;
+	}
 }
